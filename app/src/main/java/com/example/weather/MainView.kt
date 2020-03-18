@@ -1,11 +1,9 @@
 package com.example.weather
 
 interface MainView {
-    fun GetCityName():String
+    fun getCityName(): String
 
-    fun OnButtonClicked()
+    fun displayText()
 
-    fun DisplayText()
-
-    fun UpdateText(string: String?)
+    fun updateText(string: String?)
 }
